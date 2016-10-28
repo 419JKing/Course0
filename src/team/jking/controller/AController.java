@@ -21,6 +21,7 @@ public class AController {
 		ModelAndView modelAndView=new ModelAndView();
 		modelAndView.addObject("list",testtable);	
 		modelAndView.setViewName("/List");
+		modelAndView.setViewName("/ListHAOXIN");
 		return modelAndView;	
 	}
 
